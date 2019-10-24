@@ -1,0 +1,13 @@
+#Dont track the content of these folders
+node_modules/
+testsJs/
+.idea/
+
+#Dont track the content of these files
+package-lock.json
+.idea/workspace.xml
+bash.exe.stackdump
+vim.exe.stackdump
+debug.log
+FETCH_HEAD
+git

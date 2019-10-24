@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor conf.js",
+    "startDriver": "webdriver-manager start",
+    "updateWebdriverNP": "node node_modules/protractor/bin/webdriver-manager update --ie64"
+  },
+  "author": "Mauro",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.13",
+    "@types/node": "^12.6.2",
+    "protractor": "^5.4.2",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-angular-protractor": "^2.0.0",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-protractor": "^4.1.1"
+  }
+}
